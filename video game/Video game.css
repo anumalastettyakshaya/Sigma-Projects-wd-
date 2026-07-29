@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+}
+
+.face {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(237, 200, 151);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.body {
+    height: 100px;
+    width: 50px;
+    margin: auto;
+    background-color: red;
+}
+
+#main {
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.grass {
+    height: 70px;
+    width: 100%;
+    margin-top: 67px;
+    background-color: rgb(26, 219, 26);
+    z-index: 0;
+}
+
+.first {
+    margin-right: 20px;
+}
+
+.human {
+    position: absolute;
+}
